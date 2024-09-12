@@ -183,7 +183,7 @@ export function ProjectShowcase() {
 
       {/* Full Screen Gallery Modal */}
       <Dialog open={isGalleryOpen} onOpenChange={setIsGalleryOpen}>
-        <DialogContent className="max-w-[95vw] max-h-[95vh] p-0 bg-black">
+        <DialogContent className="w-full h-full p-0  bg-black">
           <div className="relative w-full h-full flex items-center justify-center">
             <div className="relative w-full h-full">
               {isLoading && (
