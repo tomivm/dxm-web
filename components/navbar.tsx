@@ -15,7 +15,7 @@ export function Navbar({ logo, navItems }: Props) {
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <header className="bg-black text-white">
+    <header className="bg-black text-white sticky top-0 z-50">
       <div className="container mx-auto px-4 py-6 flex justify-between items-center">
         <Link href="/" className="text-2xl font-bold text-[#D2A66E]">
           {logo}
