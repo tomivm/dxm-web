@@ -1,5 +1,3 @@
-"use client";
-
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -8,18 +6,18 @@ import { Textarea } from "@/components/ui/textarea";
 export function LandingPage() {
   return (
     <div className="min-h-screen bg-black text-white">
-      <section className="container mx-auto px-4 py-20 flex items-center relative">
-        <div className="w-1/2 pr-8">
+      <section className="container mx-auto px-4 py-8 md:py-20 flex md:flex-nowrap flex-wrap items-center justify-between relative">
+        <div className="md:pr-8 ">
           <h2 className="text-5xl font-bold mb-6">Crafting Unique Spaces</h2>
           <p className="text-xl mb-8">
             Where innovation meets tradition in every build.
           </p>
-          <Button className="bg-[#D2A66E] hover:bg-[#B38E5D] text-black">
+          {/* <Button className="bg-[#D2A66E] hover:bg-[#B38E5D] text-black">
             Get a Quote
-          </Button>
+          </Button> */}
         </div>
-        <div className="w-1/2 relative">
-          <div className="w-96 h-96 bg-[#D2A66E] rounded-full overflow-hidden mx-auto">
+        <div className="flex flex-grow md:flex-grow-0">
+          <div className="lg:w-96 lg:h-96 md:w-64 md:h-64 w-48 h-48 bg-[#D2A66E] rounded-full overflow-hidden mx-auto">
             <Image
               src="https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-OiLfv4YscKUtkCDCtPn6ZfFX8JWscr.png"
               alt="Cozy interior with circular window"
@@ -32,7 +30,7 @@ export function LandingPage() {
       </section>
 
       {/* About Section */}
-      <section id="about" className="bg-[#111] py-20">
+      <section id="about" className="bg-[#111] py-8 md:py-20 ">
         <div className="container mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12 text-center">
             Our Expertise
@@ -58,7 +56,7 @@ export function LandingPage() {
 
       {/* Projects Section */}
       <section id="projects" className="py-20">
-        <div className="container mx-auto px-4">
+        <div className="container justify-center mx-auto px-4">
           <h2 className="text-4xl font-bold mb-12 text-center">Our Projects</h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
             {[
@@ -91,6 +89,11 @@ export function LandingPage() {
                 </div>
               </div>
             ))}
+          </div>
+          <div className="flex justify-center p-8">
+            <Button className="mx-auto px-4 bg-[#D2A66E] hover:bg-[#B38E5D] text-black">
+              All our projects
+            </Button>
           </div>
         </div>
       </section>
@@ -129,20 +132,6 @@ export function LandingPage() {
               </Button>
             </form>
           </div>
-        </div>
-        {/* Inverted Sea Trace */}
-        <div className="absolute top-0 left-0 right-0 h-24 overflow-hidden transform rotate-180">
-          <svg
-            viewBox="0 0 1440 320"
-            className="w-full h-full"
-            preserveAspectRatio="none"
-          >
-            <path
-              fill="#D2A66E"
-              fillOpacity="0.2"
-              d="M0,160L48,176C96,192,192,224,288,213.3C384,203,480,149,576,149.3C672,149,768,203,864,224C960,245,1056,235,1152,213.3C1248,192,1344,160,1392,144L1440,128L1440,320L1392,320C1344,320,1248,320,1152,320C1056,320,960,320,864,320C768,320,672,320,576,320C480,320,384,320,288,320C192,320,96,320,48,320L0,320Z"
-            ></path>
-          </svg>
         </div>
       </section>
 
