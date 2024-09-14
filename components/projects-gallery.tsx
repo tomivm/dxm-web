@@ -7,7 +7,8 @@ const projects = [
     id: 1,
     title: "Modern Loft Conversion",
     description: "A spacious loft transformed into a contemporary living space",
-    imageUrl: "/placeholder.svg?height=400&width=600",
+    imageUrl:
+      "https://hebbkx1anhila5yf.public.blob.vercel-storage.com/image-OiLfv4YscKUtkCDCtPn6ZfFX8JWscr.png",
     category: "Residential",
     constructionTitle: "Open-Plan Renovation",
     constructionMethod:
@@ -122,26 +123,6 @@ export function ProjectsGallery() {
           ))}
         </div>
       </section>
-
-      <section className="container mx-auto px-4 py-16 text-center">
-        <h2 className="text-3xl font-bold mb-4">
-          Ready to Start Your Project?
-        </h2>
-        <p className="mb-8 max-w-2xl mx-auto">
-          Whether you have a specific project in mind or need guidance, we're
-          here to help bring your vision to life. Let's discuss how we can
-          create something extraordinary together.
-        </p>
-        <Button className="bg-[#D2A66E] hover:bg-[#B38E5D] text-black">
-          Contact Us Today
-        </Button>
-      </section>
-
-      <footer className="bg-[#D2A66E] text-black py-6">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2023 BuildCraft Co. All rights reserved.</p>
-        </div>
-      </footer>
     </div>
   );
 }
