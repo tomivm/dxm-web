@@ -105,7 +105,7 @@ export function AboutUsComponent() {
             Join Us on This Journey
           </h2>
           <p className="text-lg mb-6 text-center">
-            Let's create spaces that inspire, nurture, and stand the test of
+            Let s create spaces that inspire, nurture, and stand the test of
             time – just like the timeless beauty of La Pedrera.
           </p>
           <div className="text-center">
