@@ -11,9 +11,7 @@ export function ContactComponent({
   return (
     <div className={`text-white ${backgroundColor}`}>
       <main className="container mx-auto px-4 py-12">
-        <h1 className="text-4xl font-bold mb-8 text-center text-[#D2A66E]">
-          Contact Us
-        </h1>
+        <h1 className="text-4xl font-bold mb-16 text-center">Contact Us</h1>
 
         <div className="flex flex-col md:flex-row md:gap-12">
           <div className="md:w-1/2">

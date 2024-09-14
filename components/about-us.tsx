@@ -6,7 +6,7 @@ export function AboutUsComponent() {
     <div className="bg-black text-white">
       <main className="container mx-auto px-4 py-8 md:py-20">
         <section className="mb-16">
-          <h1 className="text-4xl font-bold mb-6 text-center text-[#D2A66E]">
+          <h1 className="text-4xl font-bold mb-6 text-center">
             DXM Construcciones
           </h1>
           <div className="flex flex-col md:flex-row items-center gap-8">
@@ -37,7 +37,7 @@ export function AboutUsComponent() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 text-center text-[#D2A66E]">
+          <h2 className="text-3xl font-bold mb-6 text-center">
             Our Philosophy
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
@@ -69,7 +69,7 @@ export function AboutUsComponent() {
         </section>
 
         <section className="mb-16">
-          <h2 className="text-3xl font-bold mb-6 text-center text-[#D2A66E]">
+          <h2 className="text-3xl font-bold mb-6 text-center">
             Our Inspiration
           </h2>
           <div className="flex flex-col md:flex-row items-center gap-8">
@@ -89,7 +89,7 @@ export function AboutUsComponent() {
             <div className="md:w-1/2">
               <div className="relative w-full h-0 pb-[75%] rounded-lg overflow-hidden">
                 <Image
-                  src="/placeholder.svg?height=400&width=600"
+                  src="https://instagram.fsvq2-2.fna.fbcdn.net/v/t51.29350-15/443277106_981983016958038_6191117096442868620_n.webp?stp=dst-jpg_e35&efg=eyJ2ZW5jb2RlX3RhZyI6ImltYWdlX3VybGdlbi4xNDQweDE0NDAuc2RyLmYyOTM1MC5kZWZhdWx0X2ltYWdlIn0&_nc_ht=instagram.fsvq2-2.fna.fbcdn.net&_nc_cat=106&_nc_ohc=h0F-pGt-vuoQ7kNvgG8OdDT&_nc_gid=5844204bd8784b949563ae2098693622&edm=AFg4Q8wBAAAA&ccb=7-5&ig_cache_key=MzM2OTU5ODYxMTg5NDY5OTY1OA%3D%3D.3-ccb7-5&oh=00_AYAii42eIjpuciAMuGeLJGUpLrWJforbQLUfn_A9Q496ag&oe=66EBE753&_nc_sid=0b30b7"
                   alt="Surf-inspired architecture"
                   layout="fill"
                   objectFit="cover"
@@ -101,7 +101,7 @@ export function AboutUsComponent() {
         </section>
 
         <section>
-          <h2 className="text-3xl font-bold mb-6 text-center text-[#D2A66E]">
+          <h2 className="text-3xl font-bold mb-6 text-center ">
             Join Us on This Journey
           </h2>
           <p className="text-lg mb-6 text-center">
