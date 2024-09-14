@@ -69,7 +69,7 @@ const projects = [
 
 export function ProjectsGallery() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className=" bg-black text-white">
       <section className="container mx-auto px-4 py-12 text-center">
         <h1 className="text-4xl font-bold mb-4">Our Projects</h1>
         <p className="max-w-2xl mx-auto text-lg text-gray-300">

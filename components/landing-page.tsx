@@ -1,11 +1,10 @@
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-import { Input } from "@/components/ui/input";
-import { Textarea } from "@/components/ui/textarea";
+import { ContactComponent } from "./contact";
 
 export function LandingPage() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className=" bg-black text-white">
       <section className="container mx-auto px-4 py-8 md:py-20 flex md:flex-nowrap flex-wrap items-center justify-between relative">
         <div className="md:pr-8 ">
           <h2 className="text-5xl font-bold mb-6">Crafting Unique Spaces</h2>
@@ -99,41 +98,7 @@ export function LandingPage() {
       </section>
 
       {/* Contact Section */}
-      <section id="contact" className="bg-[#111] py-20 relative">
-        <div className="container mx-auto px-4">
-          <h2 className="text-4xl font-bold mb-12 text-center">Contact Us</h2>
-          <div className="max-w-md mx-auto bg-black p-8 rounded-lg shadow-lg border border-[#D2A66E]">
-            <form>
-              <div className="mb-4">
-                <Input
-                  type="text"
-                  placeholder="Your Name"
-                  className="bg-[#222] text-white border-[#D2A66E]"
-                />
-              </div>
-              <div className="mb-4">
-                <Input
-                  type="email"
-                  placeholder="Your Email"
-                  className="bg-[#222] text-white border-[#D2A66E]"
-                />
-              </div>
-              <div className="mb-4">
-                <Textarea
-                  placeholder="Your Message"
-                  className="bg-[#222] text-white border-[#D2A66E]"
-                />
-              </div>
-              <Button
-                type="submit"
-                className="w-full bg-[#D2A66E] hover:bg-[#B38E5D] text-black"
-              >
-                Send Message
-              </Button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <ContactComponent backgroundColor={"bg-[#111]"} />
     </div>
   );
 }

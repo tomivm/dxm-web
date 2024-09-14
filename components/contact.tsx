@@ -3,9 +3,13 @@ import { Input } from "@/components/ui/input";
 import { Textarea } from "@/components/ui/textarea";
 import { Phone, Mail, MapPin } from "lucide-react";
 
-export function ContactComponent() {
+export function ContactComponent({
+  backgroundColor = " bg-black",
+}: {
+  backgroundColor: string;
+}) {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className={`text-white ${backgroundColor}`}>
       <main className="container mx-auto px-4 py-12">
         <h1 className="text-4xl font-bold mb-8 text-center text-[#D2A66E]">
           Contact Us

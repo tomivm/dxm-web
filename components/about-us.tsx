@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 
 export function AboutUsComponent() {
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className="bg-black text-white">
       <main className="container mx-auto px-4 py-8 md:py-20">
         <section className="mb-16">
           <h1 className="text-4xl font-bold mb-6 text-center text-[#D2A66E]">

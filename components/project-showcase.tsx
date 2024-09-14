@@ -60,7 +60,7 @@ export function ProjectShowcase() {
   }, [isGalleryOpen, nextImage, prevImage]);
 
   return (
-    <div className="min-h-screen bg-black text-white">
+    <div className=" bg-black text-white">
       {/* Header */}
       {/* <header className="container mx-auto px-4 py-6">
         <Link
