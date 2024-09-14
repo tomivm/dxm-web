@@ -6,7 +6,7 @@ import { Phone, Mail, MapPin } from "lucide-react";
 export function ContactComponent({
   backgroundColor = " bg-black",
 }: {
-  backgroundColor: string;
+  backgroundColor?: string;
 }) {
   return (
     <div className={`text-white ${backgroundColor}`}>

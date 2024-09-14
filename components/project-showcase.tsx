@@ -195,9 +195,9 @@ export function ProjectShowcase() {
             >
               <ChevronRight className="h-12 w-12" />
             </button>
-            <div className="absolute bottom-4 left-4 right-4 text-white text-center bg-black bg-opacity-50 p-2 rounded">
+            {/* <div className="absolute bottom-4 left-4 right-4 text-white text-center bg-black bg-opacity-50 p-2 rounded">
               {images[currentImageIndex].description}
-            </div>
+            </div> */}
           </div>
         </DialogContent>
       </Dialog>
