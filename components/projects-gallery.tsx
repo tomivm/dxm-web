@@ -113,7 +113,7 @@ export function ProjectsGallery() {
                 </div>
               </div>
               <div className="px-6 pb-6">
-                <Link href={`/project/${project.id}`}>
+                <Link href={`/projects/${project.id}`}>
                   <Button className="w-full bg-[#D2A66E] hover:bg-[#B38E5D] text-black">
                     View Project
                   </Button>

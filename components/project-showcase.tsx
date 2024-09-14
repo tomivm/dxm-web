@@ -2,9 +2,8 @@
 
 import { useState, useEffect, useCallback } from "react";
 import Image from "next/image";
-import Link from "next/link";
 import { Dialog, DialogContent } from "@/components/ui/dialog";
-import { ArrowLeft, X, ChevronLeft, ChevronRight } from "lucide-react";
+import { X, ChevronLeft, ChevronRight } from "lucide-react";
 
 export function ProjectShowcase() {
   const [isGalleryOpen, setIsGalleryOpen] = useState(false);
@@ -63,7 +62,7 @@ export function ProjectShowcase() {
   return (
     <div className="min-h-screen bg-black text-white">
       {/* Header */}
-      <header className="container mx-auto px-4 py-6">
+      {/* <header className="container mx-auto px-4 py-6">
         <Link
           href="/"
           className="inline-flex items-center text-[#D2A66E] hover:text-[#B38E5D] transition-colors"
@@ -71,7 +70,7 @@ export function ProjectShowcase() {
           <ArrowLeft className="mr-2 h-4 w-4" />
           Back to Home
         </Link>
-      </header>
+      </header> */}
 
       {/* Hero Section */}
       <section className="container mx-auto px-4 py-8">
@@ -157,14 +156,6 @@ export function ProjectShowcase() {
           <p className="mt-4 text-[#D2A66E]">- John Doe, Homeowner</p>
         </div>
       </section>
-
-      {/* Footer */}
-      <footer className="bg-[#D2A66E] text-black py-6">
-        <div className="container mx-auto px-4 text-center">
-          <p>&copy; 2023 BuildCraft Co. All rights reserved.</p>
-        </div>
-      </footer>
-
       {/* Full Screen Gallery Modal */}
       <Dialog open={isGalleryOpen} onOpenChange={setIsGalleryOpen}>
         <DialogContent className="w-full h-full p-0  bg-black">
