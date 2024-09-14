@@ -75,13 +75,13 @@ export function AboutUsComponent() {
           <div className="flex flex-col md:flex-row items-center gap-8">
             <div className="md:w-1/2">
               <p className="text-lg mb-4">
-                The rolling waves of La Pedrera's beaches inspire our fluid,
+                The rolling waves of La Pedrera beaches inspire our fluid,
                 dynamic designs. Like a surfer reading the ocean, we read the
                 landscape to create structures that feel like a natural
                 extension of their environment.
               </p>
               <p className="text-lg mb-4">
-                Our circular window designs, reminiscent of a surfer's view
+                Our circular window designs, reminiscent of a surfer view
                 through a wave, bring a unique perspective to every space we
                 create, connecting the indoors with the beauty of the outdoors.
               </p>
